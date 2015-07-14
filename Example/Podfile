@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TBIconTransitionKit_Example', :exclusive => true do
+  pod "TBIconTransitionKit", :path => "../"
+end
+
+target 'TBIconTransitionKit_Tests', :exclusive => true do
+  pod "TBIconTransitionKit", :path => "../"
+
+  
+end
