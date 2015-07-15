@@ -9,12 +9,11 @@
 
 Pod::Spec.new do |s|
   s.name             = "TBIconTransitionKit"
-  s.version          = "1.0.0"
-  s.summary          = "Small kit, for animate your icon transition (like hamburger menu and arrow)."
+  s.version          = "1.0.1"
+  s.summary          = "TBIconTransitionKit is an easy to use icon transition kit that allows to smoothly change from one shape to another."
   s.description      = <<-DESC
-                       Small kit, for animate your icon transition (like hamburger menu and arrow).
-
-                       * Markdown format.
+                       TBIconTransitionKit is an easy to use icon transition kit that allows to smoothly change from one shape to another. Build on UIButton with CAShapeLayers It includes a set of the most common navigation icons. Feel free to recolor the them as you like and customise shapes — adjust the line spacing, edit the line width and it's cap.
+                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/AlexeyBelezeko/TBIconTransitionKit"
