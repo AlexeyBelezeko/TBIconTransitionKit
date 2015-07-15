@@ -5,14 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
 [![Platform](https://img.shields.io/cocoapods/p/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
 
-Easy to use icon transition kit. Build on UIButton with CAShapeLayers.
+TBIconTransitionKit  is an easy to use icon transition kit that allows to smoothly change from one shape to another.
+Build on UIButton with CAShapeLayers It includes a set of the most common navigation icons. Feel free to recolor the them as you like and customise shapes — adjust the line spacing, edit the line width and it's cap.
 
-### Animated transitions:
+Both ways animated transitions:
 
-- Menu and Arrow
-- Menu and Cross
-- Cross and Plus
-- Plus and Minus
+- Menu to Arrow 
+- Menu to Cross 
+- Cross to Plus
+- Plus to Minus
 
 ## Usage
 
