@@ -9,19 +9,19 @@
 
 Pod::Spec.new do |s|
   s.name             = "TBIconTransitionKit"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of TBIconTransitionKit."
+  s.version          = "1.0.0"
+  s.summary          = "Small kit, for animate your icon transition (like hamburger menu and arrow)."
   s.description      = <<-DESC
-                       An optional longer description of TBIconTransitionKit
+                       Small kit, for animate your icon transition (like hamburger menu and arrow).
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TBIconTransitionKit"
+  s.homepage         = "https://github.com/AlexeyBelezeko/TBIconTransitionKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "AlexeyBelezeko" => "alexey.belezeko@sfcd.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TBIconTransitionKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/AlexeyBelezeko/TBIconTransitionKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

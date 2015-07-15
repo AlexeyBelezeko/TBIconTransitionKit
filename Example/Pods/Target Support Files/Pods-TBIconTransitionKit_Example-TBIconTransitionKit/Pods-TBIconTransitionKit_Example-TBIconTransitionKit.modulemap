@@ -1,0 +1,6 @@
+framework module TBIconTransitionKit {
+  umbrella header "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

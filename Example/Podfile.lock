@@ -1,0 +1,14 @@
+PODS:
+  - TBIconTransitionKit (0.1.0)
+
+DEPENDENCIES:
+  - TBIconTransitionKit (from `../`)
+
+EXTERNAL SOURCES:
+  TBIconTransitionKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TBIconTransitionKit: cdb3f84727594422820d005b56c75099f336b785
+
+COCOAPODS: 0.36.4
