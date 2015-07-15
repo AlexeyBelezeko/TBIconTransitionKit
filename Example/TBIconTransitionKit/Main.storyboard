@@ -75,7 +75,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" misplaced="YES" text="Version 1.0.1 By Alexey Belezenko and Oleg Turbaba" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="tr9-LS-Nv0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" ambiguous="YES" misplaced="YES" text="Version 1.0.1 By Alexey Belezenko and Oleg Turbaba" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="tr9-LS-Nv0">
                                 <rect key="frame" x="20" y="86" width="560" height="19.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -101,7 +101,7 @@
                             <constraint firstAttribute="trailing" secondItem="46A-3s-WoD" secondAttribute="trailing" id="Exf-eX-HGp"/>
                             <constraint firstItem="gTo-vF-DTm" firstAttribute="top" secondItem="Y06-NV-72r" secondAttribute="bottom" id="FHh-ep-0DB"/>
                             <constraint firstItem="tr9-LS-Nv0" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="20" id="HWp-T2-P1T"/>
-                            <constraint firstItem="RBp-ti-bac" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="top" constant="20" id="M4p-6W-ntT"/>
+                            <constraint firstItem="RBp-ti-bac" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="20" id="M4p-6W-ntT"/>
                             <constraint firstAttribute="trailing" secondItem="tr9-LS-Nv0" secondAttribute="trailing" constant="20" id="RN6-WY-WyQ"/>
                             <constraint firstItem="wQK-Gz-q49" firstAttribute="top" secondItem="tr9-LS-Nv0" secondAttribute="bottom" constant="10.5" id="SxS-hz-iZn"/>
                             <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="gTo-vF-DTm" secondAttribute="bottom" id="ab1-J6-2rI"/>

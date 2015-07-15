@@ -451,7 +451,8 @@ static CGFloat tbAnimationFrames = 10.0;
     animation.duration = tbFrameRate * tbAnimationFrames;
     animation.removedOnCompletion = NO; // Keep changes
     animation.fillMode = kCAFillModeForwards; // Keep changes
-    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    //Custom timing function for really smooth =)
+    animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.60 :0.00 :0.40 :1.00];
     
     return animation;
 }
