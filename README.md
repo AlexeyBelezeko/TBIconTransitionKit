@@ -5,7 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
 [![Platform](https://img.shields.io/cocoapods/p/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
 
-Small icons kit with animated button transition.
+Easy to use icon transition kit. Build on UIButton with CAShapeLayers.
+
+### Animated transitions:
+
+- Menu and Arrow
+- Menu and Cross
+- Cross and Plus
+- Plus and Minus
 
 ## Usage
 
