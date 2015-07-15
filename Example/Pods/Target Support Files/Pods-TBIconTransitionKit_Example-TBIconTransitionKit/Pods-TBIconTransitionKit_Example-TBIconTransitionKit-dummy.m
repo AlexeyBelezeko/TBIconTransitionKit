@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TBIconTransitionKit_Example_TBIconTransitionKit : NSObject
+@end
+@implementation PodsDummy_Pods_TBIconTransitionKit_Example_TBIconTransitionKit
+@end

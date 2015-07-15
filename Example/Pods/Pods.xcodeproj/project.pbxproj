@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0220F1AA9E97F7E06AD73431 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CE442D15C3DE76C2EE0F29 /* Foundation.framework */; };
+		1048CABEA2FDF24D8D026EFF /* Pods-TBIconTransitionKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B84C5690E4BEB4D2B31349 /* Pods-TBIconTransitionKit_Example-dummy.m */; };
+		159032F5D82E61C7E5116DFD /* TBAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E15741E51917B2BD16FABC0A /* TBAnimationButton.m */; };
+		3571AF83467BC0F10797CFE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CE442D15C3DE76C2EE0F29 /* Foundation.framework */; };
+		4009A7D7B7828F3B8E0242C1 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8721FEB1EF916EF7C0B0BEE /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-dummy.m */; };
+		54E5E2CEF4156773C656171B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CE442D15C3DE76C2EE0F29 /* Foundation.framework */; };
+		5D00B985A63578424765A33C /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C8FFC52EDD88D9293D0B2 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-dummy.m */; };
+		86B76ED12C255394240E5C9F /* TBAnimationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADFECBC4465F62A0A40FF28 /* TBAnimationButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A791BFACC6D8EF954FFBF2EB /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F49DCAB088773C3532AED389 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9BD34B4E0326D3A4702966D /* Pods-TBIconTransitionKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AEA350D05617A1C357D8A77 /* Pods-TBIconTransitionKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABCA3D5736274931E7816321 /* TBIconTransitionKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A6CC0A5C6D34A889C3D81B1 /* TBIconTransitionKit.bundle */; };
+		B33BEFFB0EA770703B26124C /* TBIconTransitionKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2758FA3C09C47B451C09488A /* TBIconTransitionKit.bundle */; };
+		B63B7DE38B9C2B88B0EE624E /* TBAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E15741E51917B2BD16FABC0A /* TBAnimationButton.m */; };
+		B953AD7A5B0B9C723C394071 /* Pods-TBIconTransitionKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B285CBFCEA0EB57FBFCD023 /* Pods-TBIconTransitionKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDFCE2660FDE0A4581B4855 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81CE442D15C3DE76C2EE0F29 /* Foundation.framework */; };
+		BF4061AB6240DD30DEC2DBBA /* Pods-TBIconTransitionKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A030566A169C8F0EFC8914A /* Pods-TBIconTransitionKit_Tests-dummy.m */; };
+		D20D4743B1CD02920A31B194 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0CFA28F1AED11EFF22AFCA /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA58230039E7A0FD221BAAC7 /* TBAnimationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADFECBC4465F62A0A40FF28 /* TBAnimationButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B31289C8B257CACB25312F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A30C9437C0D896BF826CB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974190AE48AA81C856EBADE5;
+			remoteInfo = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit";
+		};
+		569FDD71A9EE26CE584530FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A30C9437C0D896BF826CB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3447724AC48E9DC739DB51;
+			remoteInfo = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit";
+		};
+		611F9D57E14E52FA5329DA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A30C9437C0D896BF826CB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E3D30F393EFB8EF7211CA21;
+			remoteInfo = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit";
+		};
+		D859FCC1CE68308098624EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A30C9437C0D896BF826CB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5FA6AF486D07308924CD8C2;
+			remoteInfo = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F4BB0F1431E8993F94F878 /* Pods-TBIconTransitionKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBIconTransitionKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		0A5FA133206F12708EBBFE01 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit.modulemap"; sourceTree = "<group>"; };
+		1D5767E9236453DF97FE37D5 /* Pods-TBIconTransitionKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBIconTransitionKit_Example-resources.sh"; sourceTree = "<group>"; };
+		24C7DCFB6C3DADD5A6113C92 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-Private.xcconfig"; path = "../Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-Private.xcconfig"; sourceTree = "<group>"; };
+		2758FA3C09C47B451C09488A /* TBIconTransitionKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBIconTransitionKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		31398111829A7B32D325B656 /* Pods-TBIconTransitionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIconTransitionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		362613840A377A7EDEE9355A /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit.xcconfig"; sourceTree = "<group>"; };
+		3E318FCB7EE8C636D4F4C182 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.modulemap"; path = "../Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.modulemap"; sourceTree = "<group>"; };
+		3E786B33D3CBD7FF300FAD6C /* TBIconTransitionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBIconTransitionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F79A864E81E990CC02D373F /* Pods-TBIconTransitionKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBIconTransitionKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EA523DF0FF06B95309C950E /* Pods-TBIconTransitionKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBIconTransitionKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5B91EF2CF3FA5678B06346B7 /* Pods_TBIconTransitionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBIconTransitionKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B84C5690E4BEB4D2B31349 /* Pods-TBIconTransitionKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBIconTransitionKit_Example-dummy.m"; sourceTree = "<group>"; };
+		6A0FC59215766A702B5B029A /* Pods-TBIconTransitionKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBIconTransitionKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A6CC0A5C6D34A889C3D81B1 /* TBIconTransitionKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBIconTransitionKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7828AB12C75FDA4EA40484E1 /* Pods-TBIconTransitionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIconTransitionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B0024B82EF5170674187C80 /* Pods-TBIconTransitionKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBIconTransitionKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8053381A70FAE2ED12C4521A /* Pods-TBIconTransitionKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TBIconTransitionKit_Tests.modulemap"; sourceTree = "<group>"; };
+		818DDF53DF44EC88FE609CB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CE442D15C3DE76C2EE0F29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81D6EBDB04BB3D7507720F96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Info.plist"; sourceTree = "<group>"; };
+		883C8FFC52EDD88D9293D0B2 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-dummy.m"; sourceTree = "<group>"; };
+		8A030566A169C8F0EFC8914A /* Pods-TBIconTransitionKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBIconTransitionKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		8AB4A8252C84BD2EE9A3D8A2 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-prefix.pch"; path = "../Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-prefix.pch"; sourceTree = "<group>"; };
+		96189250266B11AC706EC656 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADFECBC4465F62A0A40FF28 /* TBAnimationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TBAnimationButton.h; sourceTree = "<group>"; };
+		9AEA350D05617A1C357D8A77 /* Pods-TBIconTransitionKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBIconTransitionKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		9B285CBFCEA0EB57FBFCD023 /* Pods-TBIconTransitionKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBIconTransitionKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A44D9F359A04624D7C37241B /* Pods-TBIconTransitionKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TBIconTransitionKit_Example.modulemap"; sourceTree = "<group>"; };
+		A8CE9EBA2B7489F0E99C2CE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0CFA28F1AED11EFF22AFCA /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-umbrella.h"; path = "../Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-umbrella.h"; sourceTree = "<group>"; };
+		B004037BB91093BC2F165CBF /* Pods-TBIconTransitionKit_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBIconTransitionKit_Example-environment.h"; sourceTree = "<group>"; };
+		B207E53C64B4EDDF40B53AAA /* TBIconTransitionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBIconTransitionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38184BB688BAA7D33588A14 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-prefix.pch"; sourceTree = "<group>"; };
+		BD328597DB1F31A836AAE44A /* Pods-TBIconTransitionKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBIconTransitionKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF3C096CF4C21D20645E71D6 /* Pods-TBIconTransitionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIconTransitionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CB04C7A4B2DD6260F920F7B2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF9FBADD79519728344C2E3F /* Pods-TBIconTransitionKit_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBIconTransitionKit_Tests-environment.h"; sourceTree = "<group>"; };
+		D8F4529B7F4FFC68E52A3244 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-Private.xcconfig"; sourceTree = "<group>"; };
+		DAF5032EAC21A0B7A309412C /* Pods_TBIconTransitionKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBIconTransitionKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15741E51917B2BD16FABC0A /* TBAnimationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TBAnimationButton.m; sourceTree = "<group>"; };
+		E19E885FD2E2A4C9071C3BCD /* Pods-TBIconTransitionKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBIconTransitionKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8721FEB1EF916EF7C0B0BEE /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-dummy.m"; path = "../Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-dummy.m"; sourceTree = "<group>"; };
+		E8E9A3A328C837A82F2B3B5A /* Pods-TBIconTransitionKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBIconTransitionKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E9853860D57AFAEC8E9371AD /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.xcconfig"; path = "../Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.xcconfig"; sourceTree = "<group>"; };
+		F49DCAB088773C3532AED389 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CC9F7FBEABC5548E562A46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0220F1AA9E97F7E06AD73431 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E838D4E893A492611A7C4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9412480BBD615792EA746CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3361A6A9EFE33DD31AD8514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3571AF83467BC0F10797CFE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A967F2FDED045425ED8373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E5E2CEF4156773C656171B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDECDF5818FA59B2CF7016B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFCE2660FDE0A4581B4855 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0272C6BF83FC21FD164E1751 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3AA251B5C45CB49C2B811A3 /* Pods-TBIconTransitionKit_Example */,
+				FF8C7EA48828598064DCC683 /* Pods-TBIconTransitionKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		03EA543321CE1271CE9FD2F7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CF7B4FEEB060B0E47A00A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		2E6BAAA2D7B6EAF5B2D0B70C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888038AED0314B7E684A0D74 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69FC3446A63011FDBDA2876E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				818DDF53DF44EC88FE609CB2 /* Info.plist */,
+				81D6EBDB04BB3D7507720F96 /* Info.plist */,
+				0A5FA133206F12708EBBFE01 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit.modulemap */,
+				362613840A377A7EDEE9355A /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit.xcconfig */,
+				D8F4529B7F4FFC68E52A3244 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-Private.xcconfig */,
+				883C8FFC52EDD88D9293D0B2 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-dummy.m */,
+				B38184BB688BAA7D33588A14 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-prefix.pch */,
+				F49DCAB088773C3532AED389 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-umbrella.h */,
+				3E318FCB7EE8C636D4F4C182 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.modulemap */,
+				E9853860D57AFAEC8E9371AD /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.xcconfig */,
+				24C7DCFB6C3DADD5A6113C92 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-Private.xcconfig */,
+				E8721FEB1EF916EF7C0B0BEE /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-dummy.m */,
+				8AB4A8252C84BD2EE9A3D8A2 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-prefix.pch */,
+				AF0CFA28F1AED11EFF22AFCA /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-TBIconTransitionKit_Example-TBIconTransitionKit";
+			sourceTree = "<group>";
+		};
+		6C6CF7B4FEEB060B0E47A00A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFECBC4465F62A0A40FF28 /* TBAnimationButton.h */,
+				E15741E51917B2BD16FABC0A /* TBAnimationButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71298B0B8002D13A5E178B50 /* TBIconTransitionKit */ = {
+			isa = PBXGroup;
+			children = (
+				03EA543321CE1271CE9FD2F7 /* Pod */,
+				69FC3446A63011FDBDA2876E /* Support Files */,
+			);
+			name = TBIconTransitionKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		71308648AF99F695A4F447BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5032EAC21A0B7A309412C /* Pods_TBIconTransitionKit_Example.framework */,
+				5B91EF2CF3FA5678B06346B7 /* Pods_TBIconTransitionKit_Tests.framework */,
+				2758FA3C09C47B451C09488A /* TBIconTransitionKit.bundle */,
+				6A6CC0A5C6D34A889C3D81B1 /* TBIconTransitionKit.bundle */,
+				B207E53C64B4EDDF40B53AAA /* TBIconTransitionKit.framework */,
+				3E786B33D3CBD7FF300FAD6C /* TBIconTransitionKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888038AED0314B7E684A0D74 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				81CE442D15C3DE76C2EE0F29 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A28A4D25D3B6639B946F0BD6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71298B0B8002D13A5E178B50 /* TBIconTransitionKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AD5C1D3FF5C57D54EB7C09BE = {
+			isa = PBXGroup;
+			children = (
+				CB04C7A4B2DD6260F920F7B2 /* Podfile */,
+				A28A4D25D3B6639B946F0BD6 /* Development Pods */,
+				2E6BAAA2D7B6EAF5B2D0B70C /* Frameworks */,
+				71308648AF99F695A4F447BC /* Products */,
+				0272C6BF83FC21FD164E1751 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3AA251B5C45CB49C2B811A3 /* Pods-TBIconTransitionKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				96189250266B11AC706EC656 /* Info.plist */,
+				A44D9F359A04624D7C37241B /* Pods-TBIconTransitionKit_Example.modulemap */,
+				3F79A864E81E990CC02D373F /* Pods-TBIconTransitionKit_Example-acknowledgements.markdown */,
+				E19E885FD2E2A4C9071C3BCD /* Pods-TBIconTransitionKit_Example-acknowledgements.plist */,
+				61B84C5690E4BEB4D2B31349 /* Pods-TBIconTransitionKit_Example-dummy.m */,
+				B004037BB91093BC2F165CBF /* Pods-TBIconTransitionKit_Example-environment.h */,
+				4EA523DF0FF06B95309C950E /* Pods-TBIconTransitionKit_Example-frameworks.sh */,
+				1D5767E9236453DF97FE37D5 /* Pods-TBIconTransitionKit_Example-resources.sh */,
+				9AEA350D05617A1C357D8A77 /* Pods-TBIconTransitionKit_Example-umbrella.h */,
+				E8E9A3A328C837A82F2B3B5A /* Pods-TBIconTransitionKit_Example.debug.xcconfig */,
+				BF3C096CF4C21D20645E71D6 /* Pods-TBIconTransitionKit_Example.release.xcconfig */,
+			);
+			name = "Pods-TBIconTransitionKit_Example";
+			path = "Target Support Files/Pods-TBIconTransitionKit_Example";
+			sourceTree = "<group>";
+		};
+		FF8C7EA48828598064DCC683 /* Pods-TBIconTransitionKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE9EBA2B7489F0E99C2CE7 /* Info.plist */,
+				8053381A70FAE2ED12C4521A /* Pods-TBIconTransitionKit_Tests.modulemap */,
+				BD328597DB1F31A836AAE44A /* Pods-TBIconTransitionKit_Tests-acknowledgements.markdown */,
+				6A0FC59215766A702B5B029A /* Pods-TBIconTransitionKit_Tests-acknowledgements.plist */,
+				8A030566A169C8F0EFC8914A /* Pods-TBIconTransitionKit_Tests-dummy.m */,
+				CF9FBADD79519728344C2E3F /* Pods-TBIconTransitionKit_Tests-environment.h */,
+				7B0024B82EF5170674187C80 /* Pods-TBIconTransitionKit_Tests-frameworks.sh */,
+				01F4BB0F1431E8993F94F878 /* Pods-TBIconTransitionKit_Tests-resources.sh */,
+				9B285CBFCEA0EB57FBFCD023 /* Pods-TBIconTransitionKit_Tests-umbrella.h */,
+				31398111829A7B32D325B656 /* Pods-TBIconTransitionKit_Tests.debug.xcconfig */,
+				7828AB12C75FDA4EA40484E1 /* Pods-TBIconTransitionKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-TBIconTransitionKit_Tests";
+			path = "Target Support Files/Pods-TBIconTransitionKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		046B8B0913EF08037DD4AEA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BD34B4E0326D3A4702966D /* Pods-TBIconTransitionKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0E9032676B9937DDE44017 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B953AD7A5B0B9C723C394071 /* Pods-TBIconTransitionKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		787B48D21FC40681BF9A1EC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A791BFACC6D8EF954FFBF2EB /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-umbrella.h in Headers */,
+				86B76ED12C255394240E5C9F /* TBAnimationButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC429CA350D4DD4725C77CD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20D4743B1CD02920A31B194 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-umbrella.h in Headers */,
+				EA58230039E7A0FD221BAAC7 /* TBAnimationButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		713BF6D861E28EA32282E700 /* Pods-TBIconTransitionKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7758581FBDB8C1CD96CC27 /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Tests" */;
+			buildPhases = (
+				D2085A59AB0B988C494B41EE /* Sources */,
+				C6A967F2FDED045425ED8373 /* Frameworks */,
+				6D0E9032676B9937DDE44017 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				038485AE6949B867AE6594E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TBIconTransitionKit_Tests";
+			productName = "Pods-TBIconTransitionKit_Tests";
+			productReference = 5B91EF2CF3FA5678B06346B7 /* Pods_TBIconTransitionKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		974190AE48AA81C856EBADE5 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A3D49205CFBD59F781F8EB /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit" */;
+			buildPhases = (
+				FBC83B0059B6290EE87EED03 /* Sources */,
+				9412480BBD615792EA746CCD /* Frameworks */,
+				F7BEE9F0FCC295FE26B651DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit";
+			productName = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit";
+			productReference = 2758FA3C09C47B451C09488A /* TBIconTransitionKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9E3D30F393EFB8EF7211CA21 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D43096009835ECBBB47C5B /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit" */;
+			buildPhases = (
+				DD4D858623231AE84FB2D6C1 /* Sources */,
+				2E838D4E893A492611A7C4A3 /* Frameworks */,
+				3D99D0674E748A5C88E2587C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit";
+			productName = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit";
+			productReference = 6A6CC0A5C6D34A889C3D81B1 /* TBIconTransitionKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B56A420846F9676BDE00A310 /* Pods-TBIconTransitionKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B2AFCA76DD570D42EE7D99 /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Example" */;
+			buildPhases = (
+				125ED70757ED8A661C39C17B /* Sources */,
+				0CC9F7FBEABC5548E562A46D /* Frameworks */,
+				046B8B0913EF08037DD4AEA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4727CC05DDD485DEBD11954E /* PBXTargetDependency */,
+			);
+			name = "Pods-TBIconTransitionKit_Example";
+			productName = "Pods-TBIconTransitionKit_Example";
+			productReference = DAF5032EAC21A0B7A309412C /* Pods_TBIconTransitionKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5FA6AF486D07308924CD8C2 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E6841582BD7953F8133BA8B /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Example-TBIconTransitionKit" */;
+			buildPhases = (
+				9B8642CEA51B00ED3DB479FF /* Sources */,
+				C3361A6A9EFE33DD31AD8514 /* Frameworks */,
+				D24BEFEDA9E0829560087C08 /* Resources */,
+				787B48D21FC40681BF9A1EC7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA057E160EF9AC363F5A00C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit";
+			productName = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit";
+			productReference = 3E786B33D3CBD7FF300FAD6C /* TBIconTransitionKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA3447724AC48E9DC739DB51 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2DFD3B0F9BD0018DB91DEF /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit" */;
+			buildPhases = (
+				A8A049937559CFD1BC196CBD /* Sources */,
+				FDDECDF5818FA59B2CF7016B /* Frameworks */,
+				36D3498B34A22E4FC19AE20B /* Resources */,
+				CC429CA350D4DD4725C77CD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0180E2CA127D0B06D0CD04D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit";
+			productName = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit";
+			productReference = B207E53C64B4EDDF40B53AAA /* TBIconTransitionKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A30C9437C0D896BF826CB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 217A432AAFAB80B828550A95 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD5C1D3FF5C57D54EB7C09BE;
+			productRefGroup = 71308648AF99F695A4F447BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56A420846F9676BDE00A310 /* Pods-TBIconTransitionKit_Example */,
+				C5FA6AF486D07308924CD8C2 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit */,
+				974190AE48AA81C856EBADE5 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit */,
+				713BF6D861E28EA32282E700 /* Pods-TBIconTransitionKit_Tests */,
+				EA3447724AC48E9DC739DB51 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit */,
+				9E3D30F393EFB8EF7211CA21 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D3498B34A22E4FC19AE20B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCA3D5736274931E7816321 /* TBIconTransitionKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D99D0674E748A5C88E2587C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24BEFEDA9E0829560087C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33BEFFB0EA770703B26124C /* TBIconTransitionKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BEE9F0FCC295FE26B651DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125ED70757ED8A661C39C17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1048CABEA2FDF24D8D026EFF /* Pods-TBIconTransitionKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8642CEA51B00ED3DB479FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D00B985A63578424765A33C /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-dummy.m in Sources */,
+				159032F5D82E61C7E5116DFD /* TBAnimationButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A049937559CFD1BC196CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4009A7D7B7828F3B8E0242C1 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-dummy.m in Sources */,
+				B63B7DE38B9C2B88B0EE624E /* TBAnimationButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2085A59AB0B988C494B41EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4061AB6240DD30DEC2DBBA /* Pods-TBIconTransitionKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4D858623231AE84FB2D6C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC83B0059B6290EE87EED03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0180E2CA127D0B06D0CD04D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit";
+			target = 9E3D30F393EFB8EF7211CA21 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit */;
+			targetProxy = 611F9D57E14E52FA5329DA40 /* PBXContainerItemProxy */;
+		};
+		038485AE6949B867AE6594E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit";
+			target = EA3447724AC48E9DC739DB51 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit */;
+			targetProxy = 569FDD71A9EE26CE584530FE /* PBXContainerItemProxy */;
+		};
+		4727CC05DDD485DEBD11954E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit";
+			target = C5FA6AF486D07308924CD8C2 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit */;
+			targetProxy = D859FCC1CE68308098624EDA /* PBXContainerItemProxy */;
+		};
+		DA057E160EF9AC363F5A00C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit";
+			target = 974190AE48AA81C856EBADE5 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit */;
+			targetProxy = 2B31289C8B257CACB25312F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02516CD657CB89C96B0710CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TBIconTransitionKit_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TBIconTransitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03BFA01BDB8CF492647B94D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F4529B7F4FFC68E52A3244 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TBIconTransitionKit_Example-TBIconTransitionKit/Pods-TBIconTransitionKit_Example-TBIconTransitionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBIconTransitionKit_Example-TBIconTransitionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TBIconTransitionKit_Example-TBIconTransitionKit/Pods-TBIconTransitionKit_Example-TBIconTransitionKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TBIconTransitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0BD650D1C4AB6C717D36B2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F4529B7F4FFC68E52A3244 /* Pods-TBIconTransitionKit_Example-TBIconTransitionKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TBIconTransitionKit_Example-TBIconTransitionKit/Pods-TBIconTransitionKit_Example-TBIconTransitionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBIconTransitionKit_Example-TBIconTransitionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TBIconTransitionKit_Example-TBIconTransitionKit/Pods-TBIconTransitionKit_Example-TBIconTransitionKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TBIconTransitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B7C2DC85B4732180ABC4469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TBIconTransitionKit_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TBIconTransitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3C0903726D0CB96B67DC7A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31398111829A7B32D325B656 /* Pods-TBIconTransitionKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TBIconTransitionKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TBIconTransitionKit_Tests/Pods-TBIconTransitionKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TBIconTransitionKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4916B2C19EF778E19A18AD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TBIconTransitionKit_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TBIconTransitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4EE2A245DFAFADB7CDEA85F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F0858D657B4877FFE3F8304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E9A3A328C837A82F2B3B5A /* Pods-TBIconTransitionKit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TBIconTransitionKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TBIconTransitionKit_Example/Pods-TBIconTransitionKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TBIconTransitionKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A4895EBBD7078990AB9B749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C7DCFB6C3DADD5A6113C92 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TBIconTransitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DB606F69CB4A959D1A76991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74D66823C4C1B2433277A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7828AB12C75FDA4EA40484E1 /* Pods-TBIconTransitionKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TBIconTransitionKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TBIconTransitionKit_Tests/Pods-TBIconTransitionKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TBIconTransitionKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B183EED91ED6A1AC8F950091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TBIconTransitionKit_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TBIconTransitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BB448E1653EAF75E50E50A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C7DCFB6C3DADD5A6113C92 /* Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit/Pods-TBIconTransitionKit_Tests-TBIconTransitionKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TBIconTransitionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F77D867AD3CFF9E0B4E6D541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3C096CF4C21D20645E71D6 /* Pods-TBIconTransitionKit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TBIconTransitionKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TBIconTransitionKit_Example/Pods-TBIconTransitionKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TBIconTransitionKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A3D49205CFBD59F781F8EB /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Example-TBIconTransitionKit-TBIconTransitionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7C2DC85B4732180ABC4469 /* Debug */,
+				4916B2C19EF778E19A18AD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217A432AAFAB80B828550A95 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE2A245DFAFADB7CDEA85F3 /* Debug */,
+				5DB606F69CB4A959D1A76991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E6841582BD7953F8133BA8B /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Example-TBIconTransitionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BD650D1C4AB6C717D36B2D9 /* Debug */,
+				03BFA01BDB8CF492647B94D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B2AFCA76DD570D42EE7D99 /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0858D657B4877FFE3F8304 /* Debug */,
+				F77D867AD3CFF9E0B4E6D541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7758581FBDB8C1CD96CC27 /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0903726D0CB96B67DC7A3E /* Debug */,
+				74D66823C4C1B2433277A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D43096009835ECBBB47C5B /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit-TBIconTransitionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02516CD657CB89C96B0710CB /* Debug */,
+				B183EED91ED6A1AC8F950091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2DFD3B0F9BD0018DB91DEF /* Build configuration list for PBXNativeTarget "Pods-TBIconTransitionKit_Tests-TBIconTransitionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4895EBBD7078990AB9B749 /* Debug */,
+				BB448E1653EAF75E50E50A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A30C9437C0D896BF826CB5E /* Project object */;
+}
