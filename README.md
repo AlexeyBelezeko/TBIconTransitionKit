@@ -75,7 +75,7 @@ pod "TBIconTransitionKit"
 ## Author
 
 - [AlexeyBelezeko](https://github.com/AlexeyBelezeko) 
-- [Oleg Turbaba](https://dribbble.com/turbab)
+- [Oleg Turbaba](https://dribbble.com/turbabа)
 
 ## License
 
