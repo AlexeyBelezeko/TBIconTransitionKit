@@ -1,6 +1,5 @@
 # TBIconTransitionKit
 
-[![CI Status](http://img.shields.io/travis/AlexeyBelezeko/TBIconTransitionKit.svg?style=flat)](https://travis-ci.org/AlexeyBelezeko/TBIconTransitionKit)
 [![Version](https://img.shields.io/cocoapods/v/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
 [![License](https://img.shields.io/cocoapods/l/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
 [![Platform](https://img.shields.io/cocoapods/p/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
