@@ -25,33 +25,33 @@
 
 #import <UIKit/UIKit.h>
 
-/** 
+/**
  Icon states. Default: TBAnimationButtonStateMenu.
  */
 typedef NS_ENUM(NSInteger, TBAnimationButtonState) {
-    /** 
+    /**
      Hamburger menu
      */
     TBAnimationButtonStateMenu,
-    /** 
+    /**
      Arrow
      */
     TBAnimationButtonStateArrow,
-    /** 
+    /**
      Cross
      */
     TBAnimationButtonStateCross,
-    /** 
+    /**
      PLus
      */
     TBAnimationButtonStatePlus,
-    /** 
+    /**
      Minus
      */
     TBAnimationButtonStateMinus,
 };
 
-/** 
+/**
  Constatns for CAShapeLayer line cap. Default: TBAnimationButtonLineCapButt
  */
 typedef NS_ENUM(NSInteger, TBAnimationButtonLineCap) {
@@ -106,10 +106,6 @@ typedef NS_ENUM(NSInteger, TBAnimationButtonLineCap) {
  You can change button icon by set currentState.
  */
 @property (nonatomic) TBAnimationButtonState currentState;
-
-/** Updates icon appearance and rebuild shapes.
- */
-- (void)updateAppearance;
 
 /** Transform to state with animation.
  *
