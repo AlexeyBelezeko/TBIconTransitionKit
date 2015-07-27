@@ -30,7 +30,6 @@
     CAShapeLayer *_topLayer;
     CAShapeLayer *_middleLayer;
     CAShapeLayer *_bottomLayer;
-    CGRect _lastBounds;
 }
 
 @end
@@ -41,6 +40,10 @@ static CGFloat tbScaleForArrow = 0.7;
 static NSString *tbAnimationKey = @"tbAnimationKey";
 static CGFloat tbFrameRate = 1.0/30.0;
 static CGFloat tbAnimationFrames = 10.0;
+
+@interface TBAnimationButton ()
+@property (nonatomic, assign) BOOL needsToUpdateAppearance;
+@end
 
 @implementation TBAnimationButton
 
@@ -77,18 +80,79 @@ static CGFloat tbAnimationFrames = 10.0;
     [self updateAppearance];
 }
 
-//Update shapes
-- (void)layoutSubviews
+#pragma mark - Setter
+
+- (void)setFrame:(CGRect)frame
 {
-    [super layoutSubviews];
-    if (!CGRectEqualToRect(_lastBounds, self.bounds)) {
-        [self updateAppearance];
+    [super setFrame:frame];
+    self.needsToUpdateAppearance = YES;
+}
+
+- (void)setBounds:(CGRect)bounds
+{
+    [super setBounds:bounds];
+    self.needsToUpdateAppearance = YES;
+}
+
+- (void)setLineCap:(TBAnimationButtonLineCap)lineCap
+{
+    _lineCap = lineCap;
+    self.needsToUpdateAppearance = YES;
+}
+
+- (void)setLineColor:(UIColor *)lineColor
+{
+    _lineColor = lineColor;
+    self.needsToUpdateAppearance = YES;
+}
+
+- (void)setLineHeight:(CGFloat)lineHeight
+{
+    _lineHeight = lineHeight;
+    self.needsToUpdateAppearance = YES;
+}
+
+- (void)setLineWidth:(CGFloat)lineWidth
+{
+    _lineWidth = lineWidth;
+    self.needsToUpdateAppearance = YES;
+}
+
+- (void)setLineSpacing:(CGFloat)lineSpacing
+{
+    _lineSpacing = lineSpacing;
+    self.needsToUpdateAppearance = YES;
+}
+
+- (void)setCurrentState:(TBAnimationButtonState)currentState
+{
+    [self transformToState:currentState];
+}
+
+- (void)setNeedsToUpdateAppearance:(BOOL)needsToUpdateAppearance
+{
+    _needsToUpdateAppearance = needsToUpdateAppearance;
+    
+    if (_needsToUpdateAppearance) {
+        [self setNeedsDisplay];
     }
 }
 
+#pragma mark - Draw & update Appearance if it needs
+- (void)drawRect:(CGRect)rect
+{
+    if (self.needsToUpdateAppearance) {
+        [self updateAppearance];
+    }
+    
+    [super drawRect:rect];
+}
+
+#pragma mark - Update Appearance
+
 - (void)updateAppearance
 {
-    _lastBounds = self.bounds;
+    self.needsToUpdateAppearance = NO;
     [_topLayer removeFromSuperlayer];
     [_middleLayer removeFromSuperlayer];
     [_bottomLayer removeFromSuperlayer];
@@ -110,10 +174,7 @@ static CGFloat tbAnimationFrames = 10.0;
     [self transformToState:_currentState];
 }
 
-- (void)setCurrentState:(TBAnimationButtonState)currentState
-{
-    [self transformToState:currentState];
-}
+#pragma mark - Change TBAnimationButtonState
 
 - (void)transformToState:(TBAnimationButtonState)state
 {
