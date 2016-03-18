@@ -434,14 +434,17 @@ static CGFloat tbAnimationFrames = 10.0;
     if (reverse) {
         times = @[@(1.0), @(0.0)];
     }
-    CATransform3D transform = _topLayer.transform;
+    
+    CATransform3D transform = CATransform3DMakeTranslation(0.0, _middleLayer.position.y-_topLayer.position.y, 0.0);
+    transform = CATransform3DRotate(transform, M_PI_4, 0.0, 0.0, 1.0);
     NSArray *values = @[[NSValue valueWithCATransform3D:transform],
                         [NSValue valueWithCATransform3D:CATransform3DRotate(transform, M_PI_2 + M_PI_4, 0.0, 0.0, 1.0)]];
     CAKeyframeAnimation *topAnimation = [self createKeyFrameAnimation];
     topAnimation.keyTimes = times;
     topAnimation.values = values;
     
-    transform = _bottomLayer.transform;
+    transform = CATransform3DMakeTranslation(0.0, _middleLayer.position.y-_bottomLayer.position.y, 0.0);
+    transform = CATransform3DRotate(transform, -M_PI_4, 0.0, 0.0, 1.0);
     values = @[[NSValue valueWithCATransform3D:transform],
                [NSValue valueWithCATransform3D:CATransform3DRotate(transform, M_PI_2 + M_PI_4, 0.0, 0.0, 1.0)]];
     CAKeyframeAnimation *bottomAnimation = [self createKeyFrameAnimation];
@@ -460,14 +463,16 @@ static CGFloat tbAnimationFrames = 10.0;
     if (reverse) {
         times = @[@(1.0), @(0.0)];
     }
-    CATransform3D transform = _topLayer.transform;
+    
+    CATransform3D transform = CATransform3DMakeTranslation(0.0, _middleLayer.position.y-_topLayer.position.y, 0.0);
     NSArray *values = @[[NSValue valueWithCATransform3D:transform],
                         [NSValue valueWithCATransform3D:CATransform3DRotate(transform, -M_PI, 0.0, 0.0, 1.0)]];
     CAKeyframeAnimation *topAnimation = [self createKeyFrameAnimation];
     topAnimation.keyTimes = times;
     topAnimation.values = values;
     
-    transform = _bottomLayer.transform;
+    transform = CATransform3DMakeTranslation(0.0, _middleLayer.position.y-_bottomLayer.position.y, 0.0);
+    transform = CATransform3DRotate(transform, -M_PI_2, 0.0, 0.0, 1.0);
     values = @[[NSValue valueWithCATransform3D:transform],
                [NSValue valueWithCATransform3D:CATransform3DRotate(transform, -M_PI_2, 0.0, 0.0, 1.0)]];
     CAKeyframeAnimation *bottomAnimation = [self createKeyFrameAnimation];
