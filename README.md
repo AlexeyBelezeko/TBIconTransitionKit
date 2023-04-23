@@ -1,9 +1,5 @@
 # TBIconTransitionKit
 
-[![Version](https://img.shields.io/cocoapods/v/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
-[![License](https://img.shields.io/cocoapods/l/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
-[![Platform](https://img.shields.io/cocoapods/p/TBIconTransitionKit.svg?style=flat)](http://cocoapods.org/pods/TBIconTransitionKit)
-
 TBIconTransitionKit  is an easy to use icon transition kit that allows to smoothly change from one shape to another.
 Build on UIButton with CAShapeLayers It includes a set of the most common navigation icons. Feel free to recolor the them as you like and customise shapes — adjust the line spacing, edit the line width and it's cap.
 
@@ -20,35 +16,31 @@ Both ways animated transitions:
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and open the TBIconTransitionKitExample project.
 
-Just add TBAnimationButton to you UIView with IB or code. You can use it with autolayout.
+Add AnimatedButton to your SwiftUI view.
 
-```objective-c
-#import <TBIconTransitionKit/TBAnimationButton.h>
+```swift
+import SwiftUI
+import TBIconTransitionKit
 
-@interface TBViewController ()
+struct ContentView: View {
+    @State private var buttonState: AnimatedButtonState = .menu
 
-@property (weak, nonatomic) IBOutlet TBAnimationButton *button;
-
-@end
-
-@implementation TBViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    self.button.currentState = TBAnimationButtonStateMenu;
+    var body: some View {
+        AnimatedButton(state: .menu, configure: { button in
+            button.backgroundColor = UIColor(hex: .black)
+            button.lineColor = .white
+        }, action: { button in
+            if button.currentState == .menu {
+                button.animationTransform(to: .arrow)
+            } else {
+                button.animationTransform(to: .menu)
+            }
+        })
+    }
 }
 
-- (IBAction)onButton:(TBAnimationButton *)sender
-{
-  if (sender.currentState == TBAnimationButtonStateMenu) {
-    [sender animationTransformToState:TBAnimationButtonStateArrow];
-  } else if (sender.currentState == TBAnimationButtonStateArrow) {
-    [sender animationTransformToState:TBAnimationButtonStateMenu];
-  }
-}
 ```
 
 ### Customize the design
@@ -59,26 +51,24 @@ Just add TBAnimationButton to you UIView with IB or code. You can use it with au
 - `lineColor`
 - `lineCap`
 
-After the change of one of this properties you have to call `updateAppearance` to update the view.
-
 ## Requirements
 
-- iOS 7 or higher
-- Automatic Reference Counting (ARC)
+- iOS 13 or higher
 
 ## Installation
 
-TBIconTransitionKit is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+TBIconTransitionKit can be installed using Swift Package Manager.
 
-```ruby
-pod "TBIconTransitionKit"
-```
+1. In Xcode, open your project, and select File > Swift Packages > Add Package Dependency.
+2. Enter the repository URL https://github.com/AlexeyBelezeko/TBIconTransitionKit and click Next.
+3. Select the version you'd like to use and click Next.
+4. Finally, click Finish to add the package to your project.
 
 ## Author
 
 - [AlexeyBelezeko](https://github.com/AlexeyBelezeko) 
 - [Oleg Turbaba](https://dribbble.com/turbaba)
+- [ChatGPT]
 
 ## License
 
