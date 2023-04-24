@@ -286,12 +286,15 @@ public class TBAnimatedButton: UIButton {
         bottomAnimation.values = bottomValues
         
         let middleTransform = arrowLineTransform(line: middleLayer)
-        let middleValues = [
+        var middleValues = [
             NSValue(caTransform3D: CATransform3DIdentity),
             NSValue(caTransform3D: CATransform3DIdentity),
             NSValue(caTransform3D: middleTransform),
             NSValue(caTransform3D: middleTransform)
         ]
+        if reverse {
+            middleValues = middleValues.reversed()
+        }
         let middleTimes = [0.0, 0.4, 0.4, 1.0]
         let middleAnimation = createKeyFrameAnimation()
         middleAnimation.keyTimes = middleTimes.map { NSNumber(value: $0) }

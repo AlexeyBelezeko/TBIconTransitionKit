@@ -5,7 +5,7 @@ Build on UIButton with CAShapeLayers It includes a set of the most common naviga
 
 [Animation on dribbble.com](http://drbl.in/poGN)
 
-![](https://cloud.githubusercontent.com/assets/1054094/8696614/806e054a-2af6-11e5-9155-a513b084ea4a.gif)
+![](https://user-images.githubusercontent.com/1054094/234088798-763af7fd-f4d6-4b7d-ae9f-8bcc147dfff2.gif)
 
 Both ways animated transitions:
 
