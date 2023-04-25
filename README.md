@@ -3,6 +3,8 @@
 TBIconTransitionKit  is an easy to use icon transition kit that allows to smoothly change from one shape to another.
 Build on UIButton with CAShapeLayers It includes a set of the most common navigation icons. Feel free to recolor the them as you like and customise shapes — adjust the line spacing, edit the line width and it's cap.
 
+[Rewriting project iwth ChatGPT](https://medium.com/@alexeyybelzeko/exploring-chatgpts-potential-addressing-advanced-programming-challenges-beyond-basic-games-39521ef03299)
+
 [Animation on dribbble.com](http://drbl.in/poGN)
 
 ![](https://user-images.githubusercontent.com/1054094/234088798-763af7fd-f4d6-4b7d-ae9f-8bcc147dfff2.gif)
